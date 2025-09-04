@@ -1,9 +1,9 @@
-# 🍔 Burger API
+# API
 
 Uma API simples feita em **Python + FastAPI** para demonstração de endpoints.
 
 - **`/health`** → retorna o status da aplicação.  
-- **`/me`** → retorna informações sobre um produto fictício (Burger).
+- **`/me`** → retorna informações sobre o aluno.
 
 ---
 
@@ -13,32 +13,7 @@ Uma API simples feita em **Python + FastAPI** para demonstração de endpoints.
 ```bash
 git clone https://github.com/SEU-USUARIO/api-aluno.git
 cd api-aluno
-2. Criar e ativar um ambiente virtual
-No Windows (CMD):
 
-cmd
-Copiar código
-python -m venv venv
-venv\Scripts\activate.bat
-No PowerShell:
-
-powershell
-Copiar código
-.\venv\Scripts\Activate
-No Linux/Mac:
-
-bash
-Copiar código
-python3 -m venv venv
-source venv/bin/activate
-3. Instalar as dependências
-bash
-Copiar código
-pip install -r requirements.txt
-4. Rodar a aplicação
-bash
-Copiar código
-uvicorn main:app --reload
 A API ficará disponível em:
 
 http://127.0.0.1:8000/health
@@ -57,23 +32,4 @@ json
 Copiar código
 {"status": "API funcionando corretamente 🚀"}
 GET /me
-Exemplo de resposta:
 
-json
-Copiar código
-{
-  "produto": "Burger API",
-  "preço": "47.99R$",
-  "acompanhamento": "Nenhum",
-  "descrição": "O melhor burger do mundo",
-  "disponivel": "Sim",
-  "interesses": ["Comida", "Bebida", "Tecnologia", "Programação", "FastAPI"]
-}
-🛠️ Tecnologias usadas
-Python
-
-FastAPI
-
-Uvicorn
-
-Render
