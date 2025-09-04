@@ -28,8 +28,6 @@ A API está publicada no Render e pode ser acessada aqui:
 GET /health
 Exemplo de resposta:
 
-json
-Copiar código
 {"status": "API funcionando corretamente 🚀"}
 GET /me
 
