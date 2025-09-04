@@ -9,10 +9,10 @@ def health():
 @app.get("/me")
 def me():
     return {
-        "nome": "Seu Nome",
-        "email": "seuemail@exemplo.com",
-        "curso": "Seu Curso",
-        "github": "https://github.com/seuusuario",
-        "cidade": "Sua Cidade",
-        "interesses": ["Python", "APIs", "Backend", "FastAPI"]
+        "produto": "Burger API",
+        "preço": "47.99R$",
+        "acompanhamento": "Nenhum",
+        "descrição": "O melhor burger do mundo",
+        "disponivel": "Sim",
+        "interesses": ["Comida", "Bebida", "Tecnologia", "Programação", "FastAPI"]
     }
