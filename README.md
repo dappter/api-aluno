@@ -22,7 +22,7 @@ http://127.0.0.1:8000/me
 
 🌐 API Online no Render
 A API está publicada no Render e pode ser acessada aqui:
-🔗 https://api-aluno-0y1h.onrender.com
+🔗 https://api-aluno-0y1h.onrender.com/docs
 
 📌 Endpoints
 GET /health
