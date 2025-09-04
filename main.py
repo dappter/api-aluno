@@ -9,10 +9,10 @@ def health():
 @app.get("/me")
 def me():
     return {
-        "produto": "Burger API",
-        "preço": "47.99R$",
-        "acompanhamento": "Nenhum",
-        "descrição": "O melhor burger do mundo",
-        "disponivel": "Sim",
-        "interesses": ["Comida", "Bebida", "Tecnologia", "Programação", "FastAPI"]
+        "nome": "Guilherme Lossio",
+        "email": "guilhermelossio3@gmail.com",
+        "curso": "Sistemas de Informação",
+        "github": "https://github.com/dappter",
+        "cidade": "Juazeiro do Norte - CE",
+        "interesses": ["Python", "APIs", "Backend", "FastAPI"]
     }
